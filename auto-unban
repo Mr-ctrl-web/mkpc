@@ -1,0 +1,8 @@
+<title><?php echo $language ? 'Auto-unban':'Auto-débannissement'; ?> - Mario Kart PC</title>
+<?php
+include('../includes/heads.php');
+?>
+<link rel="stylesheet" type="text/css" href="styles/classement.css" />
+<style type="text/css">
+#unban_msg {
+	display: none;
